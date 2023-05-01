@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 90vh;
 }
 
 .game-info {
@@ -53,8 +54,8 @@ img {
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(3, 8vw);
-    grid-template-rows: repeat(3, 8vw);
+    grid-template-columns: repeat(3, 15vh);
+    grid-template-rows: repeat(3, 15vh);
 }
 
 .text {
